@@ -1,0 +1,10 @@
+---
+title: Ridlen.net is Changing
+---
+Soon your ridlen.net Google Apps account will be converted and start working more like a full Google Account, giving you access to many more applications from Google. As a byproduct, this will require that an email address is only associated with one account with Google.
+
+Once your @ridlen.net account has transitioned, you will notice a few key changes that may be different than the behavior you are used to:
+
+Google services you visit while using your organization-managed Google Apps account will automatically sign you in with this account. Be mindful of the data you're saving in your @ridlen.net, which is subject to ridlen.net's terms and conditions. The new services available from your organization-managed account will initially not contain any information. Existing account data from your personal Google Account can still be found in that account, which you can continue to access after you assign a new email address to it.
+
+If you have any questions, please contact "phillip@ridlen.net":mailto:phillip@ridlen.net for more information.

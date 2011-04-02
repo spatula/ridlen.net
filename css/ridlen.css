@@ -1,0 +1,31 @@
+@import url('960.css');
+@import url('http://fonts.googleapis.com/css?family=Cabin:regular,regularitalic,bold,bolditalic');
+
+body {
+  background: #fafafa;
+  color: #556270;
+  font-family: 'Cabin', 'Helvetica', 'Arial' sans-serif;
+  font-size: 14px;
+  line-height: 1.75;
+  margin: 0 auto;
+  width: 960px;
+  text-shadow: 1px 1px 0px #fff; }
+
+  a { color: #556270; position:relative; }
+  a:hover { color: #E1230F; }
+  a:active { top: 2px; left: 1px; }
+
+  h1 { font-size: 75px; letter-spacing: -2px; line-height: 1; margin: 40px 0; }
+  h1 a, h2 a, h3 a { text-decoration: none; }
+
+  #main article { 
+    clear: left;
+    float: left;
+    padding: 0 20px 0 0;
+    width: 647px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #fff; } 
+  #main article:first-child { border-top: none; }
+    #main article h2 { margin-bottom: 10px;}
+    #main article time.posted { display: block; font-style: italic;}
+    #main article img { padding: 0 20px 20px 0; }
