@@ -4,7 +4,7 @@
 body {
   background: #fafafa;
   color: #556270;
-  font-family: 'Cabin', 'Helvetica', 'Arial' sans-serif;
+  font-family: 'Cabin', 'Helvetica', 'Arial', sans-serif;
   font-size: 14px;
   line-height: 1.75;
   margin: 0 auto;
@@ -18,7 +18,12 @@ body {
   h1 { font-size: 75px; letter-spacing: -2px; line-height: 1; margin: 40px 0; }
   h1 a, h2 a, h3 a { text-decoration: none; }
   
-  label { display: block; }
+  form {}
+    input, textarea { font-family: 'Cabin', 'Helvetica', 'Arial', sans-serif;}
+    label { display: block; }
+    textarea#message { 
+      height: 200px;
+      width: 300px; }
 
   #main article { 
     clear: left;
