@@ -17,6 +17,8 @@ body {
 
   h1 { font-size: 75px; letter-spacing: -2px; line-height: 1; margin: 40px 0; }
   h1 a, h2 a, h3 a { text-decoration: none; }
+  
+  label { display: block; }
 
   #main article { 
     clear: left;
