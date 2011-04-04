@@ -51,7 +51,9 @@ body {
     #main article time.posted { 
       display: block; 
       font-style: italic; }
-    #main article img { padding: 0 20px 20px 0; }
+    #main article img.fleft {
+      float: left; 
+      padding: 0 20px 20px 0; }
 
   footer {
     margin-top: 40px;
