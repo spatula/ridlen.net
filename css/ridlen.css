@@ -48,7 +48,7 @@ body {
   #main article:first-child { border-top: none; }
   #main article:last-child { border-bottom: none; }
     #main article h2 { margin-bottom: 10px;}
-    #main article time.posted { 
+    #main article div.posted { 
       display: block; 
       font-style: italic; }
     #main article img.fleft {
