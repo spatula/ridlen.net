@@ -4,7 +4,8 @@ title: Contact
 permalink: /contact/index.html
 ---
 <form action='http://contact.ridlen.net/send' method='post'>
-  <input type='hidden' name='return' value='{{ site.url }}/contact/thanks/'>
+  <input type='hidden' name='return' value='{{ site.url }}/contact/thanks/' />
+  <input type='hidden' name='send_to' value='{{ site.admin_email }}' />
   <p>
     <label for='name'>Your Name</label>
     <input id='name' name='name' type='text' />
