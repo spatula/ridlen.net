@@ -1,22 +1,31 @@
 @import url('960.css');
-@import url('http://fonts.googleapis.com/css?family=Cabin:regular,regularitalic,bold,bolditalic');
+@import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:bold');
 
 body {
-  background: #fafafa;
-  color: #556270;
-  font-family: 'Cabin', 'Helvetica', 'Arial', sans-serif;
+  background: #556270;
+  color: #ddd;
+  font-family: 'Palatino', 'Palatino Linotype', 'URW Palladio L', serif;
   font-size: 14px;
   line-height: 1.75;
   margin: 0 auto;
-  width: 960px;
-  text-shadow: 1px 1px 0px #fff; }
+  width: 960px; }
 
-  a { color: #556270; position:relative; }
-  a:hover { color: #E1230F; }
+  a { color: #fafafa; position: relative; }
+  a:hover { color: #8CCE66; }
   a:active { top: 2px; left: 1px; }
 
-  h1 { font-size: 75px; letter-spacing: -2px; line-height: 1; margin: 40px 0; }
-  h1 a, h2 a, h3 a { text-decoration: none; }
+  h1, h2, h3 { 
+    color: #fafafa; 
+    font-family: 'Yanone Kaffeesatz', 'Trebuchet MS', sans-serif; 
+    line-height: 1; }
+  h1 a, h2 a, h3 a {  text-decoration: none; }
+    h1 {
+      font-size: 75px; 
+      letter-spacing: -2px; 
+      margin: 40px 0; }
+      h1 a { color: #8CCE66; }
+    h2 { font-size: 36px; }
+    h3 { font-size: 28px; }
   
   form {}
     input, textarea { font-family: 'Cabin', 'Helvetica', 'Arial', sans-serif;}
@@ -29,8 +38,8 @@ body {
     clear: left;
     float: left;
     padding: 0 20px 0 0;
-    border-bottom: 1px solid #eee;
-    border-top: 1px solid #fff; } 
+    border-bottom: 1px solid #456;
+    border-top: 1px solid #678; } 
   #main article:first-child { border-top: none; }
     #main article h2 { margin-bottom: 10px;}
     #main article time.posted { display: block; font-style: italic;}
