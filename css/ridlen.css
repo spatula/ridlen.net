@@ -1,5 +1,5 @@
 @import url('960.css');
-@import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:bold');
+@import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:light,bold');
 
 body {
   background: #556270;
@@ -28,8 +28,13 @@ body {
     h3 { font-size: 28px; }
   
   form {}
-    input, textarea { font-family: 'Cabin', 'Helvetica', 'Arial', sans-serif;}
-    label { display: block; }
+    input, textarea, label { 
+      font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif; }
+    input, textarea { font-size: 16px; padding: 5px; }
+    label {   
+      font-size: 12px;
+      font-weight: bold;
+      display: block; }
     textarea#message { 
       height: 200px;
       width: 300px; }
@@ -43,9 +48,11 @@ body {
   #main article:first-child { border-top: none; }
   #main article:last-child { border-bottom: none; }
     #main article h2 { margin-bottom: 10px;}
-    #main article time.posted { display: block; font-style: italic;}
+    #main article time.posted { 
+      display: block; 
+      font-style: italic; }
     #main article img { padding: 0 20px 20px 0; }
-  
+
   footer {
     margin-top: 40px;
     border-top: 1px solid #678; }
