@@ -1,6 +1,7 @@
 ---
 title: New Puppy!
 layout: post
+author: Phillip Ridlen
 ---
 
 !<http://farm6.static.flickr.com/5296/5537523423_db854972f8_m.jpg!:http://www.flickr.com/photos/philtr/sets/72157626247434965/with/5537523423/

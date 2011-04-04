@@ -1,6 +1,7 @@
 ---
 title: Ridlen.net is Changing
 layout: post
+author: Phillip Ridlen
 ---
 Soon your ridlen.net Google Apps account will be converted and start working more like a full Google Account, giving you access to many more applications from Google. As a byproduct, this will require that an email address is only associated with one account with Google.
 

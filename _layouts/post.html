@@ -2,7 +2,7 @@
 layout: default
 ---
 <article>
-  <h2>{{ page.title }}</h2>
-  <time class="posted">{{ page.date | date: "%A, %B %d, %Y" }}</time>
+  <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+  <time class="posted">Posted on {{ page.date | date: "%A, %B %d, %Y" }} by {{ page.author }}</time>
   {{ content }}
 </article>

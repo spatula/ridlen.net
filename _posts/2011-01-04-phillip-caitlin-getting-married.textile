@@ -1,6 +1,7 @@
 ---
 title: Phillip & Caitlin Getting Married
 layout: post
+author: Phillip Ridlen
 ---
 !</images/phillip-caitlin.jpg!
 
