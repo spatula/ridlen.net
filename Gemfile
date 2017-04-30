@@ -1,3 +1,2 @@
 source :rubygems
-gem 'jekyll'
-gem 'redcloth'
+gem 'github-pages'

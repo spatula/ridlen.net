@@ -1,11 +1,23 @@
----
-layout: default
-title: Home
----
-{% for post in site.posts%}
-  <article>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <div class="posted">Posted on <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%A, %B %d, %Y" }}</time> by {{ post.author }}</div>
-    {{ post.content }}
-  </article>
-{% endfor %}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>The Ridlens</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/css/ridlen.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>The Ridlens</h1>
+    <ul>
+      <li><a href="http://mail.ridlen.net"><span class="emoji-lg">📥</span><br>Email</a></li>
+      <li><a href="http://calendar.ridlen.net"><span class="emoji-lg">📆</span><br>Calendar</a></li>
+    </ul>
+
+    <footer>
+      <p><a href="mailto:phillip@ridlen.net">Help!</a></p>
+    </footer>
+  </body>
+</html>
