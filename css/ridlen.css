@@ -13,8 +13,13 @@ body {
 a, a:hover, a:visited {
   color: #ff5156; }
 
-.icon svg path {
-  fill: #ff5156; }
+.icon svg {
+  fill: #fff;
+  width: 64px;
+  margin-bottom: 16px; }
+
+  a:hover .icon svg {
+    fill: #ff5156; }
 
 h1 {
   color: #ff5156;
@@ -35,7 +40,7 @@ li {
   text-align: center;
   width: 50%; }
 
-  li a, li a:hover, li a:visited {
+  li a, li a:visited {
     color: #ddd;
     display: block;
     padding: 20px 0;
@@ -46,4 +51,3 @@ footer {
   bottom: 0;
   right: 1em;
   opacity: 0.8; }
-
